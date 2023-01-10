@@ -1,1 +1,6 @@
-<p>dashboard works!</p>
+<h1>Página principal</h1>
+<hr>
+<p>Página unicamente disponible si se encuentra Autenticado(a)</p>
+<h4>Información del usuario</h4>
+<pre> {{ usuario | json }} </pre>
+<button class="btn btn-danger" (click)="logout()">Cerrar sesión</button>
